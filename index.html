@@ -39,6 +39,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <link rel="apple-touch-icon" href="/img/favicon.ico">
+    
+
     <!-- CSS -->
     <link href="/css/style.css?v=20170834" rel="stylesheet" type="text/css" />
     <link href="/css/bootstrap.min.css?v=20170822" rel="stylesheet" type="text/css" />
@@ -49,8 +51,11 @@
     <link href="/css/jquery-ui.css?v=20170822" rel="stylesheet" type="text/css" />
     <!--<link href="/css/plugin/YTPlayer.css?v=20170822" rel="stylesheet" />-->
     <link href="/css/plugin/owl.carousel.2.0.0-beta.3.min.css" rel="stylesheet" />
+    <link href="/css/bot.css" rel="stylesheet" />
+ 
+   
 </head>
-<body>
+<body onload = "renderBot('YHGK3Pm0iA8.cwA.Lmg.Yhhz3nbNnvKxjRN9h7mfFD-xC80yrwSFPh3Ozywp9Hc', 'mdhwTAQ1|)}kycVKCC7349$');" >
     <!-- Preloader -->
     <section id="preloader">
         <div class="loader" id="loader">
@@ -59,6 +64,11 @@
     </section>
     <!-- End Preloader -->
     <!-- Site Wraper -->
+  
+
+   <div id="botContainer"> </div>
+
+
     <div class="wrapper">
         <!-- Header -->
         <header id="header" class="header">
@@ -536,7 +546,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div>      
             <hr>
             <section class="copyright ptb-15">
                 <div class="container">
@@ -554,12 +564,16 @@
         <!-- End Scroll Top -->
     </div>
 <!-- Site Wraper End -->
+
+
 <!-- JS -->
 <!-- Load app main script -->
 <script src="/js/plugin/tether.min.js?v=20170822" type="text/javascript"></script>
 <script src="/js/jquery-1.11.2.min.js?v=20170822" type="text/javascript"></script>
 <script src="/js/plugin/jquery.easing.js?v=20170822" type="text/javascript"></script>
-
+<script type="text/javascript" src="js/resource.js?v=20190207"></script>
+<script src="/js/renderBot.js?v=20190207" type="text/javascript"> </script>
+<script src="https://cdn.botframework.com/botframework-webchat/0.14.1/botchat-es5.js?v=20190207"></script>
 <script src="/js/jquery-ui.min.js?v=20170822" type="text/javascript"></script>
 <script src="/js/bootstrap.min.js?v=20170822" type="text/javascript"></script>
 <script src="/js/plugin/jquery.fitvids.js?v=20170822" type="text/javascript"></script>
@@ -620,7 +634,7 @@
 
 </script>
 <!-- End Google Analytics -->
-</body>
+</bodyonload>
 </html>
 
 <script>
